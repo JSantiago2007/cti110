@@ -1,0 +1,22 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.HP {width: 68%; background-color: #4CAF50;} /* Green */
+.ATK {width: 55%; background-color: #2196F3;} /* Blue */
+.DEF {width: 55%; background-color: #f44336;} /* Red */
+.SPD {width: 42%; background-color: #808080;} /* Dark Grey */
+.SPATK {width: 50%; background-color: #F5B041;}
+.SPDEF {width: 50%; background-color: #BB8FCE;}
